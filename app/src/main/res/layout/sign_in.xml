@@ -35,7 +35,6 @@
             android:textColor="@color/colorSign_inIcon"
             android:backgroundTint="@color/colorSign_inIcon"
 
-
             />
         <EditText
             android:id="@+id/edittext_pass"
@@ -61,7 +60,6 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_weight="0.1"
-
         >
         <Button
             android:id="@+id/button_skip_sign_in"
