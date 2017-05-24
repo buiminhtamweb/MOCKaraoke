@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="android.mockaraoke.Main_Viewpager"
+
+    >
+
+    <item
+        android:id="@+id/search_button"
+        android:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Nhập tên bài hát">
+
+    </item>
+</menu>
