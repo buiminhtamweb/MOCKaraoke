@@ -1,19 +1,17 @@
 package android.mockaraoke;
 
+import android.accounts.AccountManager;
+import android.content.Context;
+
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.widget.ListView;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Vector;
 
@@ -22,6 +20,7 @@ import java.util.Vector;
  */
 
 public class Main_Viewpager  extends AppCompatActivity {
+
 
 
     @Override
@@ -35,7 +34,7 @@ public class Main_Viewpager  extends AppCompatActivity {
         fragmentList.add(Fragment.instantiate(this, Main_Viewpager_Fragment_2.class.getName()));
         fragmentList.add(Fragment.instantiate(this, Main_Viewpager_Fragment_3.class.getName()));
 
-        //Page Adapter
+        //ViewPager Adapter
         Main_Viewpager_Adapter adapter = new Main_Viewpager_Adapter(getSupportFragmentManager(), fragmentList);
         final ViewPager viewPager = (ViewPager) findViewById(R.id.main_viewPager);
         viewPager.setAdapter(adapter);
@@ -74,14 +73,10 @@ public class Main_Viewpager  extends AppCompatActivity {
         });
 
 
+
         //Search Feature
 //        ListView listView_result_search= (ListView) findViewById(R.id.listview_result_search);
 //        List<> list_result_search= new ArrayList<song>
-
-
-
-
-
 
     }
 
@@ -92,7 +87,10 @@ public class Main_Viewpager  extends AppCompatActivity {
         return true;
     }
 
-    //
+
+
+
+
 
 }
 
