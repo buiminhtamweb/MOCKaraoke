@@ -1,11 +1,28 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
+    //Copy Hậu Đỗ 25/5/17
+    <style name="image_view">
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="main_activity_button_title">
+        <item name="android:textSize">@dimen/button_title_text_size</item>
+        <item name="android:layout_marginTop">@dimen/button_title_margin_top</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/semi_transparent_black</item>
+        <item name="android:paddingLeft">@dimen/button_title_padding_left_right</item>
+        <item name="android:paddingRight">@dimen/button_title_padding_left_right</item>
+    </style>
+    // End Copy Hậu Đỗ
 
 </resources>

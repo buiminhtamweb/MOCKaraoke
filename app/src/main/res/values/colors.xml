@@ -1,8 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#ff4081</color>
+    <color name="colorPrimary">#5c1a0f</color>
+    <color name="colorPrimaryDark">#5c1a0f</color>
+    <color name="colorAccent">#ffffff</color>
     <color name="colorSign_inIcon">#5c1a0f</color>
     <color name="colorSign_inBackground">#af7065</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="blue">#0033CC</color>
+    <color name="green">#006600</color>
+    <color name="red">#BB0000</color>
+    <color name="yellow">#FFFF33</color>
+    <color name="background">#FFFACD</color>
+
+    <color name="black">#FF000000</color>
+    <color name="semi_transparent_black">#7f000000</color>
+    <color name="black_transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="soft_white">#f0f0f0</color>
+    <color name="grey">#8b999b</color>
+    <color name="hard_grey">#e4e5e7</color>
+    <color name="soft_grey">#508b999b</color>
+    <color name="text_grey">#727a7c</color>
+    <color name="text_soft_grey">#aab0b0</color>
+    <color name="text_hard_grey">#57585a</color>
+    <color name="default_waveform">#178b51</color>
+    <color name="default_waveformFill">#80FFC0</color>
+    <color name="default_playback_indicator">#ffff66</color>
+    <color name="default_timecode">#ddffffdd</color>
+    <color name="default_background">#000000</color>
 </resources>

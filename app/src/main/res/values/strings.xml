@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MOC Karaoke</string>
+    <string name="loading">Loading</string>
+    <string name="signed_in_fmt">signed_in_fmt</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
